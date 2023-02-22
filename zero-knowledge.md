@@ -1,6 +1,6 @@
 # Session 1  Introduction to ZK
 
-![image-20230221233556331](/Users/qinjianquan/Career/zk/images/session1_brain_map.png)
+![image-20230221233556331](https://github.com/shiyivei/zero-knowledge/blob/main/images/session1_brain_map.png)
 
 ## 1.1 Why ZK
 
@@ -44,13 +44,13 @@
 
 ### **1.6.1 ZKP for 3-coloring Demo**
 
-**Question 1 :** Currently, you can only select adjacent pairs of nodes to check. Would the proof still be zero knowledge if you could pick arbitrary pairs of nodes to check?
+**Q1 :** Currently, you can only select adjacent pairs of nodes to check. Would the proof still be zero knowledge if you could pick arbitrary pairs of nodes to check?
 
-**Answer 1 :** If I can pick arbitrary pairs of nodes to check, it means I can infer all the underlying information (the color of the whole graph) based on the two nodes, that is no longer a zero-knowledge proof
+**A1 :** If I can pick arbitrary pairs of nodes to check, it means I can infer all the underlying information (the color of the whole graph) based on the two nodes, that is no longer a zero-knowledge proof
 
-**Question 2:** The equation currently being used for confidence is `1-(1/E)^n`, where `E` is the number of edges in the graph, and `n` is the number of trials run. Is this the correct equation? Why is there no prior?
+**Q2:** The equation currently being used for confidence is `1-(1/E)^n`, where `E` is the number of edges in the graph, and `n` is the number of trials run. Is this the correct equation? Why is there no prior?
 
-**Answer 2:**  It's correct, as the number of trials increases (that is, the more questions the experimenter asks), the more certain the statement is true (`1-(1/E)^n` => 100% sure)
+**A2:**  It's correct, as the number of trials increases (that is, the more questions the experimenter asks), the more certain the statement is true (`1-(1/E)^n` => 100% sure)
 
 ### **1.6.2 Optional - ZKP for DLOG**
 
