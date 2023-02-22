@@ -1,6 +1,6 @@
 # Session 1  Introduction to ZK
 
-![image-20230221233556331](/Users/qinjianquan/Library/Application Support/typora-user-images/image-20230221233556331.png)
+![image-20230221233556331](/Users/qinjianquan/Career/zk/images/session1_brain_map.png)
 
 ## 1.1 Why ZK
 
@@ -58,17 +58,17 @@ I Have not finished yet，hard working...
 
 ### **1.6.3 zkmessage.xyz**
 
-**Question 1 :** Explain why you need to generate and save a “secret” value
+**Q1 :** Explain why you need to generate and save a “secret” value
 
-**Answer 1 :** secret it the tool that I can use to proof sth. It's unique
+**A1 :** secret it the tool that I can use to proof sth. It's unique
 
-**Question 2 :** Write out a plain-English explanation of what statement is being proven in ZK
+**Q2 :** Write out a plain-English explanation of what statement is being proven in ZK
 
-**Answer 2:** It can be any fact that the prover can prove, such as someone who says to hold a certain encrypted account, he can prove his statement is true by paying a transfer
+**A2:** It can be any fact that the prover can prove, such as someone who says to hold a certain encrypted account, he can prove his statement is true by paying a transfer
 
-**Question 3 :** Log into the same zkmessage account, from a different browser or computer. Explain why zkmessage can’t just use a simple “username/password” system like most social apps.
+**Q3 :** Log into the same zkmessage account, from a different browser or computer. Explain why zkmessage can’t just use a simple “username/password” system like most social apps.
 
-**Answer 3:** In fact, many encryption schemes used by zero-knowledge have good collision resistance (it is almost impossible to derive passwords from user name in probability), but account password schemes used by social applications are easy to guess passwords through calculations
+**A3:** In fact, many encryption schemes used by zero-knowledge have good collision resistance (it is almost impossible to derive passwords from user name in probability), but account password schemes used by social applications are easy to guess passwords through calculations
 
 # Session 3  Mathematical building blocks
 
