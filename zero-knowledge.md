@@ -68,7 +68,7 @@ I Have not finished yet，hard working...
 
 **Question 3 :** Log into the same zkmessage account, from a different browser or computer. Explain why zkmessage can’t just use a simple “username/password” system like most social apps.
 
-**Answer 3: ** In fact, many encryption schemes used by zero-knowledge have good collision resistance (it is almost impossible to derive passwords from user name in probability), but account password schemes used by social applications are easy to guess passwords through calculations
+**Answer 3:** In fact, many encryption schemes used by zero-knowledge have good collision resistance (it is almost impossible to derive passwords from user name in probability), but account password schemes used by social applications are easy to guess passwords through calculations
 
 # Session 3  Mathematical building blocks
 
